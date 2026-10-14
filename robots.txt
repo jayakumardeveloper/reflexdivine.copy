@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /search/
+Disallow: /integrations/
+Disallow: /tools/
+Disallow: /docs/
+Disallow: /dist/
+
+Sitemap: https://reflexdivine.com/sitemap.xml

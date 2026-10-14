@@ -1,0 +1,7 @@
+# Only the endpoint is reachable; config and samples are private.
+<FilesMatch "^(config|config\.sample)\.php$">
+  Require all denied
+</FilesMatch>
+<FilesMatch "\.(md|json|txt)$">
+  Require all denied
+</FilesMatch>
